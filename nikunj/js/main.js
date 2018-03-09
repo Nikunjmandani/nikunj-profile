@@ -322,7 +322,7 @@ var portfolioKeyword;
 		
 		// ------------------------------
 		// PARALLAX BG VIDEO
-		var video_parallax = $(".home-section");
+		/*var video_parallax = $(".home-section");
 		video_parallax.each(function(index, element) {
 			if($(this).data('parallax-video')) {
 				$(this).jarallax({
@@ -331,7 +331,7 @@ var portfolioKeyword;
 					videoSrc: $(this).data('parallax-video')
 				});	
 			}
-        });
+        });*/
 		// ------------------------------
 		
 
