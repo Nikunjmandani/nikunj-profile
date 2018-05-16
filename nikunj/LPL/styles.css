@@ -1,0 +1,309 @@
+@font-face {
+  font-family: ostrich;
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/523617/OstrichSansInline-Italic.otf");
+}
+#arsenalfc:hover {
+  background: red;
+  color: white;
+}
+#arsenalfc:hover td:first-child {
+  background: white;
+  color: red;
+}
+
+#afcbournemouth:hover {
+  background: black;
+  color: red;
+}
+#afcbournemouth:hover td:first-child {
+  background: red;
+  color: black;
+}
+
+#brightonhovealbion:hover {
+  background: blue;
+  color: white;
+}
+#brightonhovealbion:hover td:first-child {
+  background: white;
+  color: blue;
+}
+
+#burnleyfc:hover {
+  background: #6a1d2c;
+  color: #3fc3ff;
+}
+#burnleyfc:hover td:first-child {
+  background: #3fc3ff;
+  color: #6a1d2c;
+}
+
+#chelseafc:hover {
+  background: blue;
+  color: white;
+}
+#chelseafc:hover td:first-child {
+  background: white;
+  color: blue;
+}
+
+#crystalpalacefc:hover {
+  background: midnightblue;
+  color: red;
+}
+#crystalpalacefc:hover td:first-child {
+  background: red;
+  color: midnightblue;
+}
+
+#evertonfc:hover {
+  background: blue;
+  color: white;
+}
+#evertonfc:hover td:first-child {
+  background: white;
+  color: blue;
+}
+
+#huddersfieldtown:hover {
+  background: #26bbff;
+  color: white;
+}
+#huddersfieldtown:hover td:first-child {
+  background: white;
+  color: #26bbff;
+}
+
+#leicestercityfc:hover {
+  background: blue;
+  color: white;
+}
+#leicestercityfc:hover td:first-child {
+  background: white;
+  color: blue;
+}
+
+#liverpoolfc:hover {
+  background: red;
+  color: white;
+}
+#liverpoolfc:hover td:first-child {
+  background: white;
+  color: red;
+}
+
+#manchestercityfc:hover {
+  background: #3fc3ff;
+  color: midnightblue;
+}
+#manchestercityfc:hover td:first-child {
+  background: midnightblue;
+  color: #3fc3ff;
+}
+
+#manchesterunitedfc:hover {
+  background: red;
+  color: white;
+}
+#manchesterunitedfc:hover td:first-child {
+  background: white;
+  color: red;
+}
+
+#newcastleunitedfc:hover {
+  background: black;
+  color: white;
+}
+#newcastleunitedfc:hover td:first-child {
+  background: white;
+  color: black;
+}
+
+#southamptonfc:hover {
+  background: red;
+  color: white;
+}
+#southamptonfc:hover td:first-child {
+  background: white;
+  color: red;
+}
+
+#stokecityfc:hover {
+  background: red;
+  color: white;
+}
+#stokecityfc:hover td:first-child {
+  background: white;
+  color: red;
+}
+
+#swanseacityfc:hover {
+  background: white;
+  color: black;
+}
+#swanseacityfc:hover td:first-child {
+  background: black;
+  color: white;
+}
+
+#tottenhamhotspurfc:hover {
+  background: white;
+  color: midnightblue;
+}
+#tottenhamhotspurfc:hover td:first-child {
+  background: midnightblue;
+  color: white;
+}
+
+#watfordfc:hover {
+  background: #fff500;
+  color: black;
+}
+#watfordfc:hover td:first-child {
+  background: black;
+  color: #fff500;
+}
+
+#westbromwichalbionfc:hover {
+  background: midnightblue;
+  color: white;
+}
+#westbromwichalbionfc:hover td:first-child {
+  background: white;
+  color: midnightblue;
+}
+
+#westhamunitedfc:hover {
+  background: #6a1d2c;
+  color: #3fc3ff;
+}
+#westhamunitedfc:hover td:first-child {
+  background: #3fc3ff;
+  color: #6a1d2c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  clear: both;
+  overflow-y: auto;
+}
+
+body {
+  background: linear-gradient(rgba(0, 177, 255, 0.24), rgba(0, 28, 80, 0.78));
+  background-size: cover;
+  font-family: 'Lato', sans-serif;
+}
+
+footer {
+  background: black;
+  height: 40px;
+  clear: both;
+}
+
+.container {
+  padding: 5px;
+  clear: both;
+  overflow: auto;
+}
+.container h1, .container p {
+  color: white;
+  text-align: center;
+}
+.container h1 {
+  font-family: ostrich;
+  font-weight: 400;
+  font-size: 4em;
+}
+
+table {
+  box-shadow: 6px 8px 9px rgba(0, 0, 0, 0.6);
+  margin: 40px auto;
+  border-collapse: collapse;
+  min-width: 390px;
+}
+table thead {
+  color: #fff;
+  text-align: left;
+}
+table thead tr {
+  background: #5a7da5;
+}
+table tfoot tr td {
+  background: #5a7498;
+  border-right: none !important;
+  color: #d9d9d9;
+  font-size: .8em;
+  font-style: italic;
+  text-align: right !important;
+}
+table tr {
+  background: rgba(238, 238, 238, 0.8);
+}
+table tr:nth-of-type(even) {
+  background: rgba(221, 221, 221, 0.8);
+}
+table td, table th {
+  padding: 4px 6px;
+}
+table th {
+  height: 32px;
+}
+table td:not(:nth-child(9n+3)) {
+  text-align: center;
+}
+table td:nth-child(9n + 1) {
+  border-right: 1px solid #ddd;
+}
+table td img {
+  text-align: center;
+  height: 90%;
+  max-height: 30px;
+  max-width: 29px;
+  position: relative;
+  top: 1px;
+}
+
+@media screen and (min-width: 480px) {
+  table {
+    min-width: 491px;
+  }
+  table th, table td {
+    padding: 4px 8px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    margin: 0 auto;
+    clear: both;
+  }
+  .container .col1, .container .col2 {
+    float: left;
+  }
+  .container .col1 {
+    width: 40%;
+    padding: 40px;
+  }
+  .container .col2 {
+    width: 60%;
+  }
+  .container h1 {
+    font-size: 7em;
+    margin: 40px auto;
+    line-height: 1;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .container {
+    width: 70%;
+  }
+  .container h1, .container p {
+    position: relative;
+    right: 30px;
+  }
+}
