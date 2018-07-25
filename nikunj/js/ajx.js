@@ -12,10 +12,6 @@ console.log(tForm);
       evt.stopPropagation(); 
 
       $('').fadeOut(); 
-      
-      
-
-
       //make the AJAX call 
       $.ajax({ 
         url: '/form', 
@@ -35,10 +31,6 @@ console.log(tForm);
 
   function postSuccessHandler (jsonData) { 
     var $data = $('data'); 
-
-
-  
-
     //update the UI with the data returned from the AJAX call 
     $.each(jsonData, function (key, val) { 
       $data.append('<li><b>' +  key + '</b>'   + val + '</li>'); 
@@ -46,8 +38,6 @@ console.log(tForm);
 
     $('').fadeIn(); 
   }; 
-  
-
 //init on document ready 
 $(document).ready(init);
 })();
